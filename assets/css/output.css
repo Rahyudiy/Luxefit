@@ -1117,10 +1117,6 @@ input:checked + .toggle-bg {
   top: 0px;
 }
 
-.end-0 {
-  inset-inline-end: 0px;
-}
-
 .isolate {
   isolation: isolate;
 }
@@ -1323,30 +1319,6 @@ input:checked + .toggle-bg {
   height: 100vh;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[500px\] {
-  height: 500px;
-}
-
-.h-\[800px\] {
-  height: 800px;
-}
-
-.h-\[700px\] {
-  height: 700px;
-}
-
-.h-\[600px\] {
-  height: 600px;
-}
-
-.h-\[400px\] {
-  height: 400px;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -1363,24 +1335,16 @@ input:checked + .toggle-bg {
   width: 10vw;
 }
 
-.w-\[45\%\] {
-  width: 45%;
+.w-\[30px\] {
+  width: 30px;
 }
 
-.w-\[50vw\] {
-  width: 50vw;
+.w-\[500px\] {
+  width: 500px;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[30px\] {
-  width: 30px;
 }
 
 .max-w-6xl {
@@ -1964,10 +1928,6 @@ input:checked + .toggle-bg {
 .gap-x-2 {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
-}
-
-.gap-y-4 {
-  row-gap: 1rem;
 }
 
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
@@ -2556,10 +2516,6 @@ input:checked + .toggle-bg {
   background-size: cover;
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -2591,14 +2547,6 @@ input:checked + .toggle-bg {
 
 .bg-center {
   background-position: center;
-}
-
-.bg-top {
-  background-position: top;
-}
-
-.bg-bottom {
-  background-position: bottom;
 }
 
 .bg-repeat {
@@ -2706,9 +2654,9 @@ input:checked + .toggle-bg {
   padding-right: 1.25rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-2 {
@@ -2734,11 +2682,6 @@ input:checked + .toggle-bg {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .pt-2 {
@@ -2809,28 +2752,24 @@ input:checked + .toggle-bg {
   font-family: Poppins, sans-serif;
 }
 
-.text-\[1\.5vw\] {
-  font-size: 1.5vw;
-}
-
 .text-\[10vw\] {
   font-size: 10vw;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .text-\[2\.5vw\] {
   font-size: 2.5vw;
 }
 
-.text-\[2vw\] {
-  font-size: 2vw;
+.text-\[20px\] {
+  font-size: 20px;
 }
 
-.text-\[3vw\] {
-  font-size: 3vw;
-}
-
-.text-\[5\.5vw\] {
-  font-size: 5.5vw;
+.text-\[50px\] {
+  font-size: 50px;
 }
 
 .text-lg {
@@ -2841,30 +2780,6 @@ input:checked + .toggle-bg {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-\[18px\] {
-  font-size: 18px;
-}
-
-.text-\[15px\] {
-  font-size: 15px;
-}
-
-.text-\[40px\] {
-  font-size: 40px;
-}
-
-.text-\[20px\] {
-  font-size: 20px;
-}
-
-.text-\[25px\] {
-  font-size: 25px;
-}
-
-.text-\[50px\] {
-  font-size: 50px;
 }
 
 .font-bold {
@@ -2999,14 +2914,6 @@ input:checked + .toggle-bg {
 .text-yellow-900 {
   --tw-text-opacity: 1;
   color: rgb(99 49 18 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[18p\] {
-  color: 18p;
 }
 
 .underline {
@@ -3369,6 +3276,31 @@ input:checked + .toggle-bg {
   content: var(--tw-content);
 }
 
+/* width */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -3634,10 +3566,6 @@ input:checked + .toggle-bg {
     display: none;
   }
 
-  .md\:h-full {
-    height: 100%;
-  }
-
   .md\:h-\[600px\] {
     height: 600px;
   }
@@ -3646,36 +3574,16 @@ input:checked + .toggle-bg {
     width: 50%;
   }
 
-  .md\:w-\[\] {
-    width: ;
-  }
-
   .md\:w-\[4vw\] {
     width: 4vw;
   }
 
-  .md\:w-\[10vw\] {
-    width: 10vw;
+  .md\:w-\[50vw\] {
+    width: 50vw;
   }
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:items-center {
-    align-items: center;
-  }
-
-  .md\:gap-y-2 {
-    row-gap: 0.5rem;
-  }
-
-  .md\:gap-y-0 {
-    row-gap: 0px;
-  }
-
-  .md\:bg-center {
-    background-position: center;
   }
 
   .md\:px-6 {
@@ -3688,20 +3596,12 @@ input:checked + .toggle-bg {
     padding-bottom: 0.5rem;
   }
 
-  .md\:text-\[1vw\] {
-    font-size: 1vw;
-  }
-
-  .md\:text-\[2vw\] {
-    font-size: 2vw;
-  }
-
   .md\:text-\[1\.5vw\] {
     font-size: 1.5vw;
   }
 
-  .md\:text-\[10vw\] {
-    font-size: 10vw;
+  .md\:text-\[2vw\] {
+    font-size: 2vw;
   }
 
   .md\:text-\[3vw\] {
@@ -3710,14 +3610,6 @@ input:checked + .toggle-bg {
 
   .md\:text-\[5\.5vw\] {
     font-size: 5.5vw;
-  }
-
-  .md\:text-\[1v\] {
-    color: 1v;
-  }
-
-  .md\:text-\[vw\] {
-    color: vw;
   }
 }
 
