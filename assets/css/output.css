@@ -2545,10 +2545,6 @@ input:checked + .toggle-bg {
           background-clip: text;
 }
 
-.bg-center {
-  background-position: center;
-}
-
 .bg-repeat {
   background-repeat: repeat;
 }
@@ -2760,6 +2756,10 @@ input:checked + .toggle-bg {
   font-size: 15px;
 }
 
+.text-\[18px\] {
+  font-size: 18px;
+}
+
 .text-\[2\.5vw\] {
   font-size: 2.5vw;
 }
@@ -2780,6 +2780,10 @@ input:checked + .toggle-bg {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
 }
 
 .font-bold {
@@ -3610,6 +3614,11 @@ input:checked + .toggle-bg {
 
   .md\:text-\[5\.5vw\] {
     font-size: 5.5vw;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
